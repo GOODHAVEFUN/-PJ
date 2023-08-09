@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            color: cornflowerblue;
+            background-color: transparent; /* 배경 색상을 투명으로 설정 */
+            border: 2px solid transparent; /* 외곽선 초기값을 투명으로 설정 */
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .button1 {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            color: cornflowerblue;
+            background-color: transparent; /* 배경 색상을 투명으로 설정 */
+            border: 2px solid transparent; /* 외곽선 초기값을 투명으로 설정 */
+            border-radius: 50%; /* 버튼을 동그라미 모양으로 만듦 */
+            cursor: pointer;
+        }
+
+        /* 호버 효과 정의 */
+        .button:hover {
+            border-bottom: 2px solid blue; /* 호버 효과 시 외곽선 스타일 변경 */
+            color: blue;
+        }
+
+        .button1:hover {
+            border: 2px solid cornflowerblue; /* 호버 효과 시 외곽선 스타일 변경 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="button-container">
+        <button class="button1">&lt;</button>
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button1">&gt;</button>
+    </div>
+
+</body>
+
+</html>
